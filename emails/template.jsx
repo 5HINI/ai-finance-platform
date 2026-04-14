@@ -107,7 +107,7 @@ export default function EmailTemplate({
 
             {insights.length > 0 && (
               <Section style={styles.section}>
-                <Heading style={styles.heading}>Welth Insights</Heading>
+                <Heading style={styles.heading}>A5L Insights</Heading>
                 {insights.map((insight, index) => (
                   <Text key={index} style={styles.text}>
                     • {insight}
@@ -117,7 +117,7 @@ export default function EmailTemplate({
             )}
 
             <Text style={styles.footer}>
-              Thank you for using Welth.
+              Thank you for using A5L.
             </Text>
           </Container>
         </Body>
